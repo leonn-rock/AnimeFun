@@ -10,50 +10,54 @@
     <title>AnimeFun</title>
 </head>
 <body>
-    <div class="container-fluid m-0 p-0">
-        <nav class="bg-dark navbar navbar-expand-sm d-flex justify-content-around">
+    <div class="container-fluid m-0 p-0" id="a0">
+        <nav class="bg-dark navbar navbar-expand-sm d-flex justify-content-around fixed-top">
             <ul class="navbar-nav">
                 <li class="navbar-item"><a class="text-white nav-link" href="#"><b>FanDom</b></a></li>
                 <li class="navbar-item"><a class="text-white nav-link" href="#"><b>Treinamento do Saitama</b></a></li>
                 <li class="navbar-item"><a class="text-white nav-link" href="#"><b>A história dos Animes</b></a></li>
                 <li class="navbar-item"><a class="text-white nav-link" href="#"><b>Mangá ou Anime?</b></a></li>
             </ul>
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">Ir para</button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Ano Hana</a></li>
-                    <li><a class="dropdown-item" href="#">One Piece</a></li>
-                    <li><a class="dropdown-item" href="#">Yu-Gi-Oh</a></li>
-                    <li><a class="dropdown-item" href="#">One Punch Man</a></li>
-                </ul>
+            <div class="">
+              <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown">Ir para</button>
+              <ul class="dropdown-menu" style="right: 10%; left: auto;">
+                <li><a class="dropdown-item" href="#a0">Início</a></li>
+                <li><a class="dropdown-item" href="#a1">Ano Hana</a></li>
+                <li><a class="dropdown-item" href="#a2">One Piece</a></li>
+                <li><a class="dropdown-item" href="#a3">Yu-Gi-Oh</a></li>
+                <li><a class="dropdown-item" href="#a4">One Punch Man</a></li>
+              </ul>
+            </div>
+            
         </nav>
         <header class="container-fluid" style="background-image: url(images/anime-mashup.jpg); background-position: center; background-size: cover; height: 500px"></header>
         <main>
             <div class="container py-0 my-0">
-                <div class="container-fluid d-flex">
+                <div class="container-fluid d-flex mt-3" id="a1">
                     <div class="container-fluid text-end" style="width:50%">
-                    <h3 class="my-3">Ano Hi Mita</h3>
+                    <h3 class="mb-3" style="margin-top: 50px;">Ano Hi Mita</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum enim pariatur ipsum. Quisquam magnam deserunt quo voluptatibus eius, rem doloremque tenetur illo odit? Iure enim illum saepe eveniet aliquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad numquam sunt. Illo tempore earum neque temporibus consequuntur, repellendus voluptatum, debitis omnis natus fugiat architecto eligendi, aliquam odio ullam iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis fuga voluptate minima? Tempora voluptatum, eaque quia nam provident quos obcaecati rem quam dolores iure. Natus, ab. Quibusdam, perspiciatis quia!</p>
                     </div>
                     <div class="container-fluid p-0" style="background-image:url(images/anohana.jpg); width: 25%; height: 400px; background-position: center; background-size: cover"></div>
                 </div>
-                <div class="container-fluid d-flex">
+                <div class="container-fluid d-flex mt-3" id="a2">
                     <div class="container-fluid p-0" style="background-image:url(images/onepiece.jpg); width: 25%; height: 400px; background-position: center; background-size: cover"></div>
                     <div class="container-fluid text-start" style="width:50%">
-                    <h3 class="my-3">One Piece</h3>
+                    <h3 class="mb-3" style="margin-top: 50px;">One Piece</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum enim pariatur ipsum. Quisquam magnam deserunt quo voluptatibus eius, rem doloremque tenetur illo odit? Iure enim illum saepe eveniet aliquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad numquam sunt. Illo tempore earum neque temporibus consequuntur, repellendus voluptatum, debitis omnis natus fugiat architecto eligendi, aliquam odio ullam iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis fuga voluptate minima? Tempora voluptatum, eaque quia nam provident quos obcaecati rem quam dolores iure. Natus, ab. Quibusdam, perspiciatis quia!</p>
                     </div>                    
                 </div>
-                <div class="container-fluid d-flex">
+                <div class="container-fluid d-flex mt-3" id="a3">
                     <div class="container-fluid text-end" style="width:50%">
-                    <h3 class="my-3">Yu-Gi-Oh</h3>
+                    <h3 class="mb-3" style="margin-top: 100px;">Yu-Gi-Oh</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum enim pariatur ipsum. Quisquam magnam deserunt quo voluptatibus eius, rem doloremque tenetur illo odit? Iure enim illum saepe eveniet aliquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad numquam sunt. Illo tempore earum neque temporibus consequuntur, repellendus voluptatum, debitis omnis natus fugiat architecto eligendi, aliquam odio ullam iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis fuga voluptate minima? Tempora voluptatum, eaque quia nam provident quos obcaecati rem quam dolores iure. Natus, ab. Quibusdam, perspiciatis quia!</p>
                     </div>
                     <div class="container-fluid p-0" style="background-image:url(images/yugioh.jpg); width: 25%; height: 400px; background-position: center; background-size: cover"></div>
                 </div>
-                <div class="container-fluid d-flex">
+                <div class="container-fluid d-flex mt-3" id="a4">
                     <div class="container-fluid p-0" style="background-image:url(images/onepunch.jpg); width: 25%; height: 400px; background-position: center; background-size: cover"></div>
                     <div class="container-fluid text-start" style="width:50%">
-                    <h3 class="my-3">One Punch Man</h3>
+                    <h3 class="mb-3" style="margin-top: 50px;">One Punch Man</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolorum enim pariatur ipsum. Quisquam magnam deserunt quo voluptatibus eius, rem doloremque tenetur illo odit? Iure enim illum saepe eveniet aliquam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ad numquam sunt. Illo tempore earum neque temporibus consequuntur, repellendus voluptatum, debitis omnis natus fugiat architecto eligendi, aliquam odio ullam iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis fuga voluptate minima? Tempora voluptatum, eaque quia nam provident quos obcaecati rem quam dolores iure. Natus, ab. Quibusdam, perspiciatis quia!</p>
                     </div>                    
                 </div>
